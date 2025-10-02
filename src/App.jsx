@@ -4,8 +4,9 @@ import Showcase from "./sections/Showcase";
 import LogoShowcase from "./sections/LogoShowcase";
 import FeatureCards from "./sections/FeatureCards";
 import ExperienceSection from "./sections/ExperienceSection";
-// import TechStack from "./sections/TechStack";
+import TechStack from "./sections/TechStack";
 import Footer from "./sections/Footer";
+import Contact from "./sections/Contact";
 
 export default function App() {
   return <>
@@ -15,7 +16,8 @@ export default function App() {
     <LogoShowcase />
     <FeatureCards />
     <ExperienceSection />
-    {/* <TechStack/> */}
+    <TechStack />
+    <Contact/>
     <Footer/>
   </>
 }
